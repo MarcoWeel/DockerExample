@@ -1,5 +1,7 @@
 Commands:
 
+OM EEN COMMANDO UIT TE VOEREN MOET DOCKER AANSTAAN.
+
 DEZE COMMANDO BOUWT JE PROJECT EN MAAKT ER EEN IMAGE VAN.
 DAT WORDT GEDAAN VIA DE INSTRUCTIES DIE IN DE .Dockerfile STAAN
 Docker build <FILEPAD NAAR .Dockerfile (bijv . )> -t <NAAM VAN REPO OP DOCKERHUB BIJV marcoweel/pythonproject:latest>
@@ -8,6 +10,7 @@ VIA DEZE COMMANDO LOG JE IN OP DOCKER
 Docker login -u <Username>
 
 DEZE COMMANDO PUSHED EEN GEBOUWDE IMAGE NAAR DOCKERHUB
+OM NAAR DOCKERHUB TE PUSHEN MOET ER EERST OP DE DOCKERHUB WEBSITE EEN REPOSITORY MET DEZELFDE NAAM GEMAAKT WORDEN BIJV pythonproject
 Docker push marcoweel/pythonproject:latest
 
 In deze repo staat een voorbeeld van een simpel python programmatje met een dependency en een dockerfile.
